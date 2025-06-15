@@ -1,0 +1,90 @@
+body{
+    background-color: #000000;
+    text-align: center;
+}
+.banner{
+    background-color: #000000;
+    background-image: url(imagem/banner.png);
+}
+.logo{
+    display: block;
+    text-align: center;
+    padding-top:30px ;
+}
+header{
+    font-size: 1.2em;
+}
+button{
+    color: #33A8DB;
+    border:1px solid  #33A8DB;
+    padding: 20px 70px;
+    background-color: transparent;
+}
+main{
+    background-color: #000000;
+}
+h2{
+    color:#33A8DB;
+    font-size: 2.2em;
+}
+main > p{
+     font: 1.5em;
+}
+.module{
+  display: block;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.219);
+  border: solid 1px#33A8DB;
+  color: #ffffff;
+  padding: 20px;
+  height: 21px;
+  width:535px;
+  border-radius: 30px;
+  margin: 30px;
+  margin-left: 650px;
+  font-size: 1.2em;
+}
+span{
+    color: #33A8DB;
+}
+h1{
+    display: block; 
+    text-align: center;
+    color: #33A8DB;
+}
+p{
+    color: white;
+}
+#transform-world{
+    background-image: url(imagem/woman-code.png);
+    background-position:center center;
+    width: px;
+    height: 500px;  
+    box-shadow: outset 2px 2px 2px 2px #33a9db91;
+}
+#transform-world > p{
+    display:flex;
+    text-align: left;
+    padding: 150px 50px;
+    color: white;
+    font-size: 1.8em;
+}
+footer{
+    border: solid top 1px #000000;
+    display: block;
+    text-align: center;
+    width: 310;
+    height: 44;
+    top: 59px;
+    left: 565px;
+    padding: 40px;
+    margin-top: 20px;
+    box-shadow: inset 0px 2px #33a9db91;
+}
+footer > a{
+    color: #33A8DB;
+    text-decoration: none;
+}
+footer > p {
+    text-align: center;
+}
