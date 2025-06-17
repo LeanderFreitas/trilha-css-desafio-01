@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #000000;
     text-align: center;
@@ -19,6 +24,12 @@ button{
     border:1px solid  #33A8DB;
     padding: 20px 70px;
     background-color: transparent;
+}
+button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.5s;
+    border-radius: 15px;
 }
 main{
     background-color: #000000;
@@ -58,8 +69,8 @@ p{
 #transform-world{
     background-image: url(imagem/woman-code.png);
     background-position:center center;
-    width: px;
-    height: 500px;  
+    padding-top: 700px;
+    height: 100px;  
     box-shadow: outset 2px 2px 2px 2px #33a9db91;
 }
 #transform-world > p{
