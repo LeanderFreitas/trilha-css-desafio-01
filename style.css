@@ -34,6 +34,9 @@ button:hover{
     transition: 0.5s;
     border-radius: 15px;
 }
+#course-content{
+   box-shadow: inset 0px 2px #33a9db91;
+}
 main{
     background-color: #000000;
 }
@@ -59,9 +62,8 @@ main > p{
   width:535px;
   border-radius: 30px;
   margin: 30px;
-  margin-left: 690px;
   font-size: 1.2em;
-  
+  margin-left: 690px;
   padding-bottom: 43px;
   padding-top: 17px;
   padding-left: 41px;
@@ -81,6 +83,7 @@ p{
     font-size: 1.2em;
 }
 #transform-world{
+    box-shadow: inset 0px 2px #33a9db91;
     background-image: url(imagem/woman-code.png);
     background-position:center center;
     padding-top: 700px;
@@ -94,6 +97,9 @@ p{
     color: white;
     font-size: 1.8em;
 }
+#professional-challenges{
+    box-shadow: inset 0px 2px #33a9db91;
+}
 footer{
     border: solid top 1px #000000;
     display: block;
@@ -105,11 +111,13 @@ footer{
     padding: 40px;
     margin-top: 20px;
     box-shadow: inset 0px 2px #33a9db91;
+    
 }
 footer > a{
     color: #33A8DB;
-    text-decoration: none;
+
 }
 footer > p {
     text-align: center;
+    text-decoration: none;
 }
